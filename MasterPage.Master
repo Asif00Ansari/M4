@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FleetTrack.MasterPage" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>FleetTrack Logistics System</title>
+    <meta http-equiv="Content-Language" content="English" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/common.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrap">
+            <div id="header">
+                <h1> FleetTrack Logistics System</h1>
+                <div id="login">
+                    <asp:Label ID="loginuser" runat="server"  Font-Bold="true" Text="LoginUser"></asp:Label>&nbsp;&nbsp;
+                    <asp:Button ID="btnlogout" runat="server" CssClass="btn-danger" formnovalidate="formnovalidate" Text="Logout"  OnClick="btnlogout_Click" CausesValidation="False" />
+                 </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div>
+                <div class="right">
+                    <asp:ContentPlaceHolder ID="Content" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="left">
+                    <ul>
+                        <li>
+                           <h2> <span id="userType" runat="server"></span></h2>
+                            <ul>
+                                <li><a href="UserRegistration.aspx" id="user" runat ="server">User Registration</a></li>
+                                <li><a href="Customer.aspx" id="customer" runat="server">Vehicle Registration</a></li>
+                                <li><a href="Route.aspx" id="Route" runat="server">Route Registration</a></li>
+                                <li><a href="SecurityTeam.aspx" id="SecurityTeam" runat="server">Security team Registration</a></li>
+                                <li><a href="AssignRouteToDriver.aspx" id="AssignRouteToDriver" runat="server">Assign Route</a></li>
+                                <li><a href="updateStatus.aspx" id="updateStatus" runat="server">Update Parcel Status</a></li>
+                            </ul>
+                        </li>
+                       <%-- <li>
+                            <h2>User</h2>
+                            <ul>
+                                <li><a  href="Order.aspx" id="receive" runat="server">Make Customer Order</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>Report</h2>
+                            <ul>
+                                <li><a href="OrderList.aspx" id="orders" runat="server">Order List</a></li>
+                                <li><a href="TransactionList.aspx" id="transactions" runat="server">Transaction List</a></li>
+                            </ul>
+                                
+                        </li>--%>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div id="footer">
+               <%-- <h2>Copyright &copy; <%# DateTime.Now.ToString() %> </h2>--%>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
