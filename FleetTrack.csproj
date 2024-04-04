@@ -65,11 +65,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Customer.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="images\bg.jpg" />
     <Content Include="images\ProductImages\300px-No_image_available.svg.png" />
     <Content Include="Login.aspx" />
+    <Content Include="Route.aspx" />
     <Content Include="style\common.css" />
     <Content Include="style\jquery-ui.css" />
     <Content Include="style\login.css" />
@@ -79,6 +81,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Customer.aspx.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer.aspx.designer.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -106,6 +115,13 @@
     <Compile Include="Models\businesslayer.cs" />
     <Compile Include="Models\Datalayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Route.aspx.cs">
+      <DependentUpon>Route.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Route.aspx.designer.cs">
+      <DependentUpon>Route.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserRegistration.aspx.cs">
       <DependentUpon>UserRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

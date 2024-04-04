@@ -162,7 +162,7 @@ namespace FleetTrack.Models
     public class clsCustomer : clsDataLayer
     {
         // Add new customer on tlb_Customer
-        public void AddNewCustomer(Customer obj)
+        public void AddNewCustomer(Customers obj)
         {
 
             string sql = "INSERT INTO tbl_Vehicle (VehicleNumber,Address)"
@@ -171,7 +171,7 @@ namespace FleetTrack.Models
             InsertUpdateDeleteSQLString(sql);
         }
         // Update existing customer
-        public void UpdateCustomer(Customer obj)
+        public void UpdateCustomer(Customers obj)
         {
 
             string sql = " UPDATE  tbl_Vehicle" +

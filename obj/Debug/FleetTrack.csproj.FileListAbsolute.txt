@@ -29,6 +29,7 @@ C:\Users\P A V I L I O N\source\repos\FleetTrack\bin\roslyn\VBCSCompiler.exe
 C:\Users\P A V I L I O N\source\repos\FleetTrack\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\P A V I L I O N\source\repos\FleetTrack\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\P A V I L I O N\source\repos\FleetTrack\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\P A V I L I O N\source\repos\FleetTrack\obj\Debug\FleetTrack.csproj.AssemblyReference.cache
 C:\Users\P A V I L I O N\source\repos\FleetTrack\obj\Debug\FleetTrack.csproj.CoreCompileInputs.cache
 C:\Users\P A V I L I O N\source\repos\FleetTrack\obj\Debug\FleetTrack.csproj.CopyComplete
 C:\Users\P A V I L I O N\source\repos\FleetTrack\obj\Debug\FleetTrack.dll

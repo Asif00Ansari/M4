@@ -76,7 +76,7 @@ namespace FleetTrack.Models
         public int OrderBy { get; set; }
     }
 
-    public class Customer
+    public class Customers
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
