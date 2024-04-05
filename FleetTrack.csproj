@@ -78,6 +78,7 @@
     <Content Include="style\jquery-ui.css" />
     <Content Include="style\login.css" />
     <Content Include="style\style.css" />
+    <Content Include="updateStatus.aspx" />
     <Content Include="UserRegistration.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="SecurityTeam.aspx.designer.cs">
       <DependentUpon>SecurityTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="updateStatus.aspx.cs">
+      <DependentUpon>updateStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="updateStatus.aspx.designer.cs">
+      <DependentUpon>updateStatus.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserRegistration.aspx.cs">
       <DependentUpon>UserRegistration.aspx</DependentUpon>
