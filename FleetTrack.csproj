@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AssignRouteToDriver.aspx" />
     <Content Include="Customer.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
@@ -72,6 +73,7 @@
     <Content Include="images\ProductImages\300px-No_image_available.svg.png" />
     <Content Include="Login.aspx" />
     <Content Include="Route.aspx" />
+    <Content Include="SecurityTeam.aspx" />
     <Content Include="style\common.css" />
     <Content Include="style\jquery-ui.css" />
     <Content Include="style\login.css" />
@@ -80,6 +82,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssignRouteToDriver.aspx.cs">
+      <DependentUpon>AssignRouteToDriver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssignRouteToDriver.aspx.designer.cs">
+      <DependentUpon>AssignRouteToDriver.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Customer.aspx.cs">
       <DependentUpon>Customer.aspx</DependentUpon>
@@ -121,6 +130,13 @@
     </Compile>
     <Compile Include="Route.aspx.designer.cs">
       <DependentUpon>Route.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityTeam.aspx.cs">
+      <DependentUpon>SecurityTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecurityTeam.aspx.designer.cs">
+      <DependentUpon>SecurityTeam.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserRegistration.aspx.cs">
       <DependentUpon>UserRegistration.aspx</DependentUpon>
